@@ -1,0 +1,8 @@
+project: used_cars_price
+pipeline: used_cars_price
+verbose: false
+writers:
+  - data_collection_consent: true
+    formats: ['protobuf']
+    output_path: whylabs
+    type: whylabs
